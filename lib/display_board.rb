@@ -1,9 +1,9 @@
-def display_board (board)
-  puts " X | X | X "
+board = ["O", " ", " ", " ", " ", " ", " ", " ", " "]
+def display_board(board)
+  puts " #{board[0]} |   |   "
   puts "-----------"
-  puts "   | X |   "
+  puts "   |   |   "
   puts "-----------"
   puts "   |   |   "
 end
-board = [" "," "," "," ",""," "," "," "," "]
-display_board (board)
+display_board(board)
